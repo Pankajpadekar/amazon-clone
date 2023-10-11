@@ -9,20 +9,16 @@ header {
     height: 60px;
     background-color: #0F1111;
     color: white;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
-}
-
-
-
-
-.logo {
     display: flex;
     align-items: center;
 }
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+
 
 .logo img {
     height: 29px;
@@ -38,4 +34,26 @@ header {
 
 .border:hover {
     border: 1px solid white;
+}
+
+/* box */
+
+.add-first {
+    color: #ccc;
+    font-size: 0.85rem;
+
+
+}
+
+.add-sec {
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+
 }
