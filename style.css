@@ -73,7 +73,7 @@ nav {
 .nav-search {
     display: flex;
     background-color: palevioletred;
-    width: 710px;
+    width: 715px;
     height: 40px;
     border-radius: 4px;
     position: relative;
@@ -84,6 +84,7 @@ nav {
 .search-select {
     background-color: #f3f3f3;
     height: 40px;
+    width: 51px;
     padding-left: 5px;
     text-align: center;
     border-top-left-radius: 4px;
@@ -116,9 +117,30 @@ nav {
 
 /* box 4 */
 
+.language img {
+    width: 22px;
+    height: 24px;
+    left: 80px;
+    position: relative;
+    top: 9px;
+}
+
+
 .nav-sign {
     position: relative;
     left: 150px;
+}
+
+.add-icon2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.add-icon2 i {
+    position: relative;
+    left: 5px;
+    font-size: 9px;
 }
 
 .return {
@@ -128,7 +150,7 @@ nav {
 
 .nav-cart {
     position: relative;
-    left: 200px;
+    left: 180px;
 }
 
 span {
@@ -136,6 +158,18 @@ span {
 }
 
 .nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 6 */
+
+.nav-cart i {
+    font-size: 30px;
+
+}
+
+.nav-cart {
     font-size: 0.85rem;
     font-weight: 700;
 }
