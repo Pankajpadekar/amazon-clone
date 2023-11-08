@@ -194,11 +194,26 @@ span {
     height: 40px;
     background-color: #222f3d;
     display: flex;
+    color:  white;
+    font-family: Arial;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .panel-ops p {
     display: inline;
-    color:  white;
-    font-family: Arial;
+    margin-left: 10px;
+    font-weight: 500;
     
+}
+
+.panel-ops {
+    width: 80%;
+    font-size: 0.8rem;
+
+}
+
+.panel-shop {
+    font-size: 1.2rem;
+    font-weight: 500;
 }
