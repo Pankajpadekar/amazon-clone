@@ -11,12 +11,14 @@ header {
     color: white;
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
 }
 
 nav {
     display: flex;
     align-items: center;
+    position: relative;
+    right: 93px;
     
 }
 
@@ -117,18 +119,30 @@ nav {
 
 /* box 4 */
 
-.language img {
+.language {
     width: 22px;
     height: 24px;
     left: 80px;
     position: relative;
     top: 9px;
+    display: flex;
+}
+
+.language img {
+    width: 22px;
+    height: 24px;
+
+}
+
+.language i {
+    font-size: 10px;
+
 }
 
 
 .nav-sign {
     position: relative;
-    left: 150px;
+    left: 130px;
 }
 
 .add-icon2 {
@@ -145,12 +159,12 @@ nav {
 
 .return {
     position: relative;
-    left: 170px;
+    left: 160px;
 }
 
 .nav-cart {
     position: relative;
-    left: 180px;
+    left: 170px;
 }
 
 span {
@@ -172,4 +186,19 @@ span {
 .nav-cart {
     font-size: 0.85rem;
     font-weight: 700;
+}
+
+/* panel */
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+}
+
+.panel-ops p {
+    display: inline;
+    color:  white;
+    font-family: Arial;
+    
 }
