@@ -19,7 +19,7 @@ nav {
     align-items: center;
     position: relative;
     right: 93px;
-    
+
 }
 
 
@@ -105,7 +105,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer; 
+    cursor: pointer;
     font-size: 1.2rem;
     background-color: #febd68;
     border-top-right-radius: 4px;
@@ -196,7 +196,7 @@ span {
     height: 40px;
     background-color: #222f3d;
     display: flex;
-    color:  white;
+    color: white;
     font-family: Arial;
     align-items: center;
     justify-content: space-evenly;
@@ -206,7 +206,7 @@ span {
     display: inline;
     margin-left: 10px;
     font-weight: 500;
-    
+
 }
 
 .panel-ops {
@@ -239,7 +239,7 @@ span {
     align-items: center;
     justify-content: center;
     font-size: 0.85rem;
-    width: 80%;
+    width: 97%;
     margin-bottom: 25px;
     font-weight: 550;
     font-family: Arial;
@@ -247,4 +247,25 @@ span {
 
 .hero-msg a {
     color: #007185;
+}
+
+/* shop section */
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(221, 102, 183);
+}
+
+.box {
+    border: 2px solid black;
+    height: 387px;
+    width: 23%;
+    background-color: white;
+
+
+}
+
+.box1 {
+    display: flex;
 }
