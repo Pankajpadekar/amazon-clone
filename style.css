@@ -259,13 +259,40 @@ span {
 
 .box {
     border: 2px solid black;
-    height: 387px;
+    height: 420px;
     width: 23%;
     background-color: white;
 
 
 }
 
-.box1 {
-    display: flex;
+.box1 h2 {
+    font-size: 21px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+
+}
+
+.box-content {
+    display: grid;
+    background-color: blue;
+    row-gap: 30px;
+    column-gap: 6p;
+    grid-template-columns: auto auto;
+    grid-column: auto;
+    height: 333px;
+    width: 297px;
+    position: relative;
+    left: 19px;
+    top: 10px;
+    
+
+}
+
+.box-size {
+    height: 138px;
+    width: 141px;
+    background-color: red;
+    position: relative;
+    left: 4px;
+    top: 7px;
 }
