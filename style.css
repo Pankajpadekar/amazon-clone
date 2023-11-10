@@ -253,7 +253,7 @@ span {
 
 .shop-section {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     background-color: rgb(221, 102, 183);
 }
 
@@ -266,20 +266,21 @@ span {
 
 }
 
-.box1 h2 {
+div h2 {
     font-size: 21px;
     font-family: "Amazon Ember",Arial,sans-serif;
+    position: relative;
+    left: 19px;
 
 }
 
 .box-content {
     display: grid;
-    background-color: blue;
-    row-gap: 30px;
-    column-gap: 6p;
+    /* background-color: blue; */
+    column-gap: 4px;
     grid-template-columns: auto auto;
     grid-column: auto;
-    height: 333px;
+    height: 325px;
     width: 297px;
     position: relative;
     left: 19px;
@@ -291,7 +292,7 @@ span {
 .box-size {
     height: 138px;
     width: 141px;
-    background-color: red;
+    /* background-color: red; */
     position: relative;
     left: 4px;
     top: 7px;
