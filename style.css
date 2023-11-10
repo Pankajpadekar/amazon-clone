@@ -225,7 +225,7 @@ span {
 .here-section {
     background-image: url("great_indian.jpg");
     background-size: cover;
-    height: 350px;
+    height: 310px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -238,7 +238,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.85rem;
+    font-size: 1rem;
     width: 97%;
     margin-bottom: 25px;
     font-weight: 550;
@@ -247,18 +247,20 @@ span {
 
 .hero-msg a {
     color: #007185;
+    text-decoration: none;
+    
 }
 
 /* shop section */
 
 .shop-section {
     display: flex;
-    /* justify-content: space-evenly; */
-    background-color: rgb(221, 102, 183);
+    justify-content: space-evenly;
+    background-color: rgb(216, 152, 196);
 }
 
 .box {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 420px;
     width: 23%;
     background-color: white;
@@ -296,4 +298,9 @@ div h2 {
     position: relative;
     left: 4px;
     top: 7px;
+}
+
+div p {
+    font-family: "Amazon Ember",Arial,sans-serif;
+
 }
